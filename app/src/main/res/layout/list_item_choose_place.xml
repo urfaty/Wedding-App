@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="25dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/deneme1">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:text="Capacity: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#A473665A"
+                android:textSize="16sp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:text="Name: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#A473665A"
+                android:textSize="16sp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:text="City: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#A473665A"
+                android:textSize="16sp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:text="Alcohol: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#A473665A"
+                android:textSize="16sp"
+                >
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:text="Capacity: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#A473665A"
+                android:textSize="16sp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:text="Name: asdasdasdasdasd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#A473665A"
+                android:textSize="16sp"
+                >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv7"
+                    android:text="City: asdasdad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#A473665A"
+                    android:textSize="16sp"
+                    >
+                </TextView>
+
+                <TextView
+                    android:text="Rate "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A473665A"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    >
+                </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:text="Alcohol: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#A473665A"
+                    android:textSize="16sp"
+                    >
+                </TextView>
+
+
+                <RatingBar
+                    android:id="@+id/rating_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="1"
+                    android:progressTint="#DFA59B"
+                    android:stepSize="1"
+                    android:progressBackgroundTint="#BCB7B7"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="57dp"
+                    >
+                </RatingBar>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

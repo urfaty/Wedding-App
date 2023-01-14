@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SendInvitation"
+    android:background="@drawable/deneme1"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INVITATION"
+        android:textColor="#B8867D"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="26sp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/edit_text_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:lines="10"
+        android:textStyle="italic"
+        android:text="asdasdaLKDAHLKASHDLAKHDALSKDHALKSDHALKSDHLAKSDHLKASDKLASHDLKAHDALKSsdas"
+        android:layout_marginTop="10dp"
+        android:background="@null">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter mail addresses"
+        android:textColor="#B8867D"
+        android:textStyle="italic"
+        android:textSize="19sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Invitation"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:backgroundTint="#F3DCD8"
+        android:layout_marginTop="140dp"
+
+        android:textSize="20sp"
+        android:textColor="#575555"/>
+
+
+</LinearLayout>

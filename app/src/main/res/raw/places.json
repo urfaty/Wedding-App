@@ -1,0 +1,173 @@
+{
+  "Places": {
+    "Place": [
+      {
+        "capacity": 200,
+        "name": "New Mahall",
+        "city": "Ankara",
+        "alcohol": "Yes",
+        "ratings": 1
+      },
+      {
+        "capacity": 400,
+        "name": "Roof Wedding",
+        "city": "İstanbul",
+        "alcohol": "No",
+        "ratings": 2
+      },
+
+      {
+        "capacity": 600,
+        "name": "Anılar Wedding",
+        "city": "İzmir",
+        "alcohol": "Yes",
+        "ratings": 3
+      },
+      {
+        "capacity": 800,
+        "name": "Damra Wedding",
+        "city": "Ankara",
+        "alcohol": "No",
+        "ratings": 4
+      },
+      {
+        "capacity": 1000,
+        "name": "White Ceremony",
+        "city": "İstanbul",
+        "alcohol": "Yes",
+        "ratings": 5
+      },
+
+      {
+        "capacity": 1300,
+        "name": "Keyfince Wedding",
+        "city": "İzmir",
+        "alcohol": "No",
+        "ratings": 1
+      },
+      {
+      "capacity": 1700,
+        "name": "La Jovia",
+        "city": "Ankara",
+        "alcohol": "Yes",
+        "ratings": 2
+      },
+      {
+        "capacity": 2000,
+        "name": "Beli's Wedding",
+        "city": "İstanbul",
+        "alcohol": "No",
+        "ratings": 3
+      },
+
+
+      {
+        "capacity": 2500,
+        "name": "La Rossa",
+        "city": "İzmir",
+        "alcohol": "Yes",
+        "ratings": 4
+      },
+
+      {
+        "capacity": 200,
+        "name": "Balcon Wedding",
+        "city": "Ankara",
+        "alcohol": "No",
+        "ratings": 5
+      },
+
+
+      {
+        "capacity": 400,
+        "name": "Dreams Wedding",
+        "city": "İstanbul",
+        "alcohol": "Yes",
+        "ratings": 1
+      },
+      {
+        "capacity": 600,
+        "name": "Star Wedding",
+        "city": "İzmir",
+        "alcohol": "No",
+        "ratings": 2
+      },
+      {
+        "capacity": 800,
+        "name": "Lux Ceremony",
+        "city": "Ankara",
+        "alcohol": "Yes",
+        "ratings": 3
+      },
+      {
+        "capacity": 1000,
+        "name": "Queen Wedding",
+        "city": "İstanbul",
+        "alcohol": "No",
+        "ratings": 4
+      },
+      {
+        "capacity": 1300,
+        "name": "La Minatte",
+        "city": "İzmir",
+        "alcohol": "Yes",
+        "ratings": 5
+      },
+      {
+        "capacity": 1700,
+        "name": "Bella's Wedding",
+        "city": "Ankara",
+        "alcohol": "No",
+        "ratings": 1
+      },
+      {
+        "capacity": 2000,
+        "name": "La Bella",
+        "city": "İstanbul",
+        "alcohol": "Yes",
+        "ratings": 2
+      },
+      {
+        "capacity": 2500,
+        "name": "Princess",
+        "city": "İzmir",
+        "alcohol": "No",
+        "ratings": 3
+      },
+      {
+        "capacity": 200,
+        "name": "La Isabella",
+        "city": "Ankara",
+        "alcohol": "Yes",
+        "ratings": 4
+      },
+      {
+        "capacity": 800,
+        "name": "Jullia's Wedding",
+        "city": "İstanbul",
+        "alcohol": "No",
+        "ratings": 5
+      },
+      {
+        "capacity": 1300,
+        "name": "La Diana",
+        "city": "İzmir",
+        "alcohol": "Yes",
+        "ratings": 3
+      },
+      {
+        "capacity": 2900,
+        "name": "New Paris",
+        "city": "Ankara",
+        "alcohol": "No",
+        "ratings": 4
+      }
+
+    ]
+  }
+}
+
+
+
+
+

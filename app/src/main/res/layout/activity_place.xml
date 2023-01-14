@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceActivity"
+    android:orientation="vertical"
+    android:background="@drawable/deneme1">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/deneme1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Alcohol: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A473665A"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/tv2"
+        android:text="Alcohol: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A473665A"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/tv3"
+        android:text="Alcohol: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A473665A"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/tv4"
+        android:text="Alcohol: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A473665A"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:text="Rate: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A473665A"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="75dp"
+            >
+
+        </TextView>
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="1"
+            android:progressTint="#DFA59B"
+            android:stepSize="1"
+            android:progressBackgroundTint="#BCB7B7"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            style="?android:attr/ratingBarStyleIndicator"
+            >
+        </RatingBar>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set as Wedding\nPlace"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:backgroundTint="#F3DCD8"
+        android:layout_marginTop="80dp"
+        android:textSize="19sp"
+        android:textColor="#575555"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseWeddingPlaceActivity"
+    android:background="@drawable/deneme1"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Wedding Place"
+        android:textColor="#B8867D"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="26sp"
+        android:paddingRight="5dp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set your city"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:textColor="#B8867D"
+            android:layout_marginLeft="30dp">
+
+        </TextView>
+
+
+        <Spinner
+            android:id="@+id/spin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/city_array"
+            android:spinnerMode="dialog"
+            android:layout_marginLeft="15dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose max capcity"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textColor="#B8867D"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            >
+
+        </TextView>
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stepSize="100"
+            android:valueFrom="0"
+            android:valueTo="3000"
+            app:thumbColor="#DFABA1"
+            app:tickColor="#FFDFABA1"
+            app:trackColorActive="#FFDFABA1"
+            app:trackColorInactive="#BDBDBD"
+            android:layout_marginLeft="10dp"
+
+            >
+        </com.google.android.material.slider.Slider>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Rate"
+            android:textSize="18sp"
+            android:textColor="#B8867D"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"
+
+
+
+
+            ></TextView>
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="1"
+            android:progressTint="#DFA59B"
+            android:stepSize="1"
+            android:scaleX="0.65"
+            android:scaleY="0.65"
+            android:progressBackgroundTint="#BCB7B7"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:isIndicator="false"
+
+            >
+
+        </RatingBar>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <RadioGroup
+        android:id="@+id/rdbGp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Alcohol Free"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#B8867D"
+            android:paddingRight="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25dp"
+            ></TextView>
+
+        <RadioButton
+            android:id="@+id/rdb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:paddingRight="30dp"
+            android:text="Yes"
+            android:buttonTint="#DFA59B"
+
+            />
+
+        <RadioButton
+            android:id="@+id/rdb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:paddingRight="30dp"
+            android:text="No"
+            android:buttonTint="#DFA59B"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/rdb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Both"
+            android:buttonTint="#DFA59B"
+            />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F3DCD8"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Find Places"
+        android:textAllCaps="false"
+        android:textColor="#667570"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:listitem="@layout/list_item_choose_place"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
